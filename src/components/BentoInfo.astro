@@ -1,0 +1,35 @@
+---
+const ARTICLES = [
+    {
+        title:'Qué esperar de un proceso de selección',
+        contentId:'selection-process',
+    },
+    {
+        title:'Los puestos emergentes van a petarlo',
+        contentId:'emergent-jobs', 
+    },
+    {
+        title:'La opinión de las empresas',
+        contentId:'company-review', 
+    },
+    {
+        title:'Sin experiencia? Destaca en las entrevistas',
+        contentId:'no-experience', 
+    }
+]
+---
+
+<section class="mx-auto max-w-7xl px-4 w-full bg-red">
+    <div class="mx-auto w-full px-4 py-6">
+        <h2 class="font-semibold">Prepárate para ganar</h2>
+        <div class="grid grid-col-2 gap-4">
+            {ARTICLES.map(({title, contentId})=>(
+                <article>
+                    <button class="p-4 rounded-2xl bg-yellow-200">
+                        <h4>{title}</h4>
+                    </button>
+                </article>
+            ))}
+        </div>
+    </div>
+</section>

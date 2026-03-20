@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme{
+    --color-primary: #167DB7;
+    --color-accent: #FE5230;
+    --color-neutral: #F5F5F5;
+
+  --background-image-hero-pattern: url('/hero-pattern.webp');
+
+}
