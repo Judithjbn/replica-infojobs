@@ -1,3 +1,7 @@
+## Nota
+Este proyecto está en construcción, está inspirado en en un proyecto de @midudev. 
+
+
 # Astro Starter Kit: Basics
 
 ```sh
